@@ -1,0 +1,12 @@
+# M2 cap probe: 300 truncated every image; 3000 is checked at 320px.
+# Recheck on full validation and use identically for both models in M3.
+imgsz: 320
+conf: 0.001
+iou: 0.7
+max_det: 3000
+agnostic_nms: false
+half: false
+augment: false
+batch: 1
+rect: false
+coco_max_dets: 3000
