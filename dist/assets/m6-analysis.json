@@ -1,0 +1,62 @@
+{
+  "split": "validation",
+  "images": 548,
+  "display_confidence": 0.25,
+  "matching_iou": 0.5,
+  "totals": {
+    "baseline": {
+      "tp": 1952,
+      "fp": 564,
+      "fn": 33255,
+      "ignored": 293,
+      "precision": 0.7758346581875993,
+      "recall": 0.05544351975459426
+    },
+    "fine_tuned": {
+      "tp": 8899,
+      "fp": 4271,
+      "fn": 26308,
+      "ignored": 1621,
+      "precision": 0.6757023538344723,
+      "recall": 0.2527622347828557
+    }
+  },
+  "source": {
+    "baseline": {
+      "raw_predictions_sha256": "0514d575171bd0318f2d8c732686166a5e369f133090b9e874cac30282a3eb71",
+      "shared_predictions_sha256": "8ce8063a3226b1a5b67eb1eb8fa1f9d3950d3c6d3da63a84a15c78570d9d3347",
+      "weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "settings": {
+        "imgsz": 320,
+        "conf": 0.001,
+        "iou": 0.7,
+        "max_det": 3000,
+        "agnostic_nms": false,
+        "half": false,
+        "augment": false,
+        "batch": 1,
+        "rect": false,
+        "coco_max_dets": 3000
+      }
+    },
+    "fine_tuned": {
+      "raw_predictions_sha256": "6bfb5b6d02ae3b31f27677932bc7080e5817e144e2c11ef523f46450a62560d7",
+      "shared_predictions_sha256": "7284164e44374f567e7b6bd7a03d93d3b0fa9f44586b955aeb1a2de10a66f4ce",
+      "weights_sha256": "582e4c7b73b9984930d0520351670e32cb1d41d8d3b22f6d01823d1e951aa647",
+      "settings": {
+        "imgsz": 320,
+        "conf": 0.001,
+        "iou": 0.7,
+        "max_det": 3000,
+        "agnostic_nms": false,
+        "half": false,
+        "augment": false,
+        "batch": 1,
+        "rect": false,
+        "coco_max_dets": 3000
+      }
+    }
+  },
+  "ground_truth_sha256": "a03e6ae0cb62c6a58207a4fd07ee0eba1c4345ab281eeb595bef24a3173e5eb4",
+  "selection": "Three original site frames + three largest TP gains + three largest TP losses + three largest fine-tuned FN counts; unique sequence prefixes, ties by image ID. Selected examples are not representative aggregate metrics."
+}

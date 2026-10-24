@@ -1,0 +1,13 @@
+case,file,reason,baseline_tp,fine_tuned_tp,baseline_fp,fine_tuned_fp,fine_tuned_fn,new_matches,lost_matches
+1,0000026_00500_d_0000025.jpg,Original site frame (fixed before prediction inspection),1,11,0,2,4,10,0
+2,0000242_00627_d_0000003.jpg,Original site frame (fixed before prediction inspection),2,9,1,6,30,7,0
+3,0000194_00800_d_0000123.jpg,Original site frame (fixed before prediction inspection),2,6,2,5,36,4,0
+4,0000129_02411_d_0000138.jpg,Largest increase in matched objects,0,77,0,39,89,77,0
+5,0000271_06001_d_0000402.jpg,Largest increase in matched objects,9,61,2,32,90,52,0
+6,0000295_02000_d_0000031.jpg,Largest increase in matched objects,3,54,1,19,252,51,0
+7,0000103_01734_d_0000028.jpg,Largest decrease in matched objects,4,0,1,1,4,0,4
+8,0000023_01233_d_0000011.jpg,Largest decrease in matched objects,5,2,2,4,12,1,4
+9,0000024_00500_d_0000013.jpg,Largest decrease in matched objects,4,2,1,2,8,0,2
+10,0000291_03801_d_0000887.jpg,Most remaining missed objects,1,10,1,10,169,9,0
+11,0000086_01954_d_0000005.jpg,Most remaining missed objects,0,17,0,30,156,17,0
+12,0000001_08414_d_0000013.jpg,Most remaining missed objects,1,16,0,10,138,15,0
